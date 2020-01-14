@@ -12,7 +12,7 @@ public class App extends Application {
 	public void start(Stage primaryStage) throws Exception {
 	
 		chooserController = new ChooserController();
-		Scene scene = new Scene(chooserController.getRootView(), 480, 320);
+		Scene scene = new Scene(chooserController.getRootView(), 480, 256);
 		
 		primaryStage.setTitle("Consulta fecha");
 		primaryStage.setScene(scene);
